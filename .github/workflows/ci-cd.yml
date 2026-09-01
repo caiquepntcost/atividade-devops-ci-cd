@@ -24,7 +24,7 @@ jobs:
         run: pytest
 
       - name: Build da aplicação
-        run: pip run build
+        run: python -m compileall projeto-devops
 
       - name: Deploy de exemplo (simulado)
         run: echo "Deploy realizado com sucesso!"
